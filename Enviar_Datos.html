@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario de Entrada de Datos</title>
+</head>
+<body>
+<!--Cuando queremos enviar un datos de otro archivo no es necesario que sea del tipo php, puede ser html por medio de fomrularios.
+
+Si queremos enviar datos mediante un fomrulario en la etiqueta <form> debemos poner dos atributos que son el method en donde se debe especificar si quiere mandar informacion(post) o recibir informacion(get) y luego poner el atributo action en donde aqui especificaremos a que archivo queremos mandar los datos de ese formulario     
+!-->
+
+
+
+<form method="post" action="Recibir_Datos.php">
+	<label>Ingrese su Nombre: </label>
+	<input type="text" name="nombre">
+	<br>
+    <br>
+    <label>Ingrese su Primer Numero: </label> 
+    <input type="text" name="num1">
+    <br>
+    <br>
+    <label>Ingrese su Segundo Numero: </label> 
+    <input type="text" name="num2">
+    <br>
+    <br>
+    <label>Seeleccione la Operacion a realizar: </label> 
+    <br>
+    Suma
+    <input type="radio" name="operacion" value="suma">
+    Resta
+    <input type="radio" name="operacion" value="resta">
+    <br>
+    <br>
+   <label>Seleccione la segunda operacion que quiere hacer: </label> 
+    <br>
+    <select name="Operacion">
+        <option value="dividir">Dividir</option>
+        <option value="multiplicar">Multiplicar</option>
+        
+    </select>
+    <br>
+    <br>
+    <label>Ingrese su Correo: </label>
+    <input type="email" name="correo">
+    <br>
+    <br>
+    <label>Ingrese Su mensaje: </label>
+    <textarea name="mensaje"></textarea>
+    
+    <br>
+    <br>
+    <input type="submit" value="Enviar" style="background: black; color: white;">
+    
+</form>
+</body>
+</html>
+
+
+
+
+
