@@ -33,7 +33,7 @@ print("<br>");
 //Diferente a(!=)
 $comparacion6 = 6!=7;
 print($comparacion6);
-
+print("<br>");
 
 //Si queremos decir and (&&)
 $numero=23;
@@ -43,8 +43,10 @@ if ($numero>=18 && $numero<100) {
 }else
    print("Edad Incorrecta");
 
+print("<br>");
+
 //Si queremos decir or (&&)
-$edad=23;
+$edad=10;
 
 if ($edad==18 || $edad>18) {
 	print("Usted es mayor de edad");

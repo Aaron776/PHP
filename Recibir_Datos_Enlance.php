@@ -12,7 +12,11 @@
 
      //aqui usamos la variable o matriz Get, la diferencia del get con el request
       print($_GET["nombre"]);
+      print($_GET["apellido"]);
+      print($_GET["edad"]);
+     
 
+                            
 
 
 
