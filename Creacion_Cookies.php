@@ -9,7 +9,7 @@ Para crear un cookie usamos la funcion setcookie()y dentro el parentesis van muc
 Pra asegurarnos que nuestra cookie fue creada correctamente, las cookies se almacenan dentro de nuestro navegador y para ver las cookies vamos a las configurcaiones de nuestro navegador, luego vamos a configraciones avanzadas, vamos a la opcion privacidad y nos vamos a la opcion que dice Cookies y luego nos vamos a la opcion que dice ver todas las cookies y buscamos la que dice localhost y ahi veremos nuestra cookie con el nombre que le di en mi caso "Nombre_Persona" y "Calificacion_Persona" me aparecen.
 
 
-Para leer los valores de una cookie lo hacemos mediante un if-else y dentro del if ponemos un isset y dentro de los parentesis poenmos la matriz "$_COOKIES" Y PARA VLLER UNA COOKIE  antes hay que entender que las cookies se almacenan en una matriz de datos conocida como matriz de cookies, para leer una cookie ya no es importante hacerlo hantes que el archivo html
+Para leer los valores de una cookie lo hacemos mediante un if-else y dentro del if ponemos un isset y dentro de los parentesis poenmos la matriz "$_COOKIES" Y PARA LER UNA COOKIE  antes hay que entender que las cookies se almacenan en una matriz de datos conocida como matriz de cookies, para leer una cookie ya no es importante hacerlo hantes que el archivo html
 */
 $nombre=$_POST['nombre'];
 $calificacion=$_POST['calificacion'];

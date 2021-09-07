@@ -5,6 +5,7 @@
 	<title></title>
 </head>
 <?php  
+//La función isset() nos permite evaluar si una variable está definida o no solo eso
 
  if (isset($_COOKIE['Nombre_Persona'])&& isset($_COOKIE['Calificacion_Persona'])) {
  	echo "La variable cookie nombre contiene: ";
