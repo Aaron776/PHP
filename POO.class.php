@@ -15,6 +15,13 @@
    	public $color="Azul";
    	public $precio=23000;
 
+
+      //Constructor
+      function __construct(){
+         echo "Se ha creado un objeto de esta clase";
+
+      }
+
    	//Metodos
 
    	function acelerar(){
@@ -25,6 +32,20 @@
    		echo "El automovil se freno";
 
    	}
+
+      //Uso de la palabra this
+
+      function ponerColor(){
+         $this->color ="Rojo";
+         echo $this->color;
+
+      }
+
+      function ponerPrecio(){
+         $this->precio=500000;
+         echo $this->precio;
+
+      }
 
    	
    	   }
