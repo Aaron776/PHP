@@ -25,6 +25,20 @@ switch ($numero=22) {
 	echo "<br>";
 
 
+	
+
+     $nombre="Raul";
+	switch ($nombre) {
+		case 'Raul':
+			echo "Si eres Raul";
+			break;
+		
+		default:
+			echo "No eres Raul definitivamente";
+			break;
+	}
+
+echo "<br>";
 
 									//Switch Case con Html usando el metodo Post o REQUEST para recibir informacion
 
