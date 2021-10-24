@@ -11,10 +11,10 @@
 //En el parentesis a lado sel switch poenmos la variable que queremos evaluar, a lado de la opcion case ponemos el valor que esperamos obtener para hacer unas ciertas intruccion y la parte default lo que no dice es que si no cumple con ninguno de los case hara otra accion y se cortara el switch case
 
 switch ($numero=22) {
-	case '23':
+	case 23:
 		print("El numero es 23");
 		break;
-	case '22':
+	case 22:
 		print("El numero es 22");
 		break;
 	default:

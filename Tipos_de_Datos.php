@@ -17,7 +17,7 @@ Para declarar una variable debo anteponer el signo de dolar($) y luego darle nom
  print($comodin); //tipo de dato bolloeano (true(1) o false(0))
 
  $numero1=23.5;
- print($numero1);
+ print($numero1);// tipo de dato numerico decimal o float
 
  $palabra="Hola";
  print($palabra) //tipo de dato texto o string
