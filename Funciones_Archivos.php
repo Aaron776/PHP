@@ -7,7 +7,7 @@
 <?php 
 //Los archivos en php no se crean en el computador si no en nuestro servidor
 
-//Fopen(): esta funcion lo que hace es abrir el archivo que quermeos utilizar, en el parentesis primero ponemos el nombre del archivo y luego poenmos el parametro modo (a de crear archivo y escribir al final ,w de escribir o sobreescribir en el archivo  y r de leer el archivo y solo permite leer archivos )
+//fopen(): esta funcion lo que hace es abrir el archivo que quermeos utilizar, en el parentesis primero ponemos el nombre del archivo y luego poenmos el parametro modo (a de crear archivo y escribir al final ,w de escribir o sobreescribir en el archivo  y r de leer el archivo y solo permite leer archivos )
 
 	$nombre=$_POST['nombre'];
 	$calificacion=$_POST['calificacion'];					
@@ -31,7 +31,7 @@ fputs($archivo,$calificacion);
 //fclose(): Permite guardar  y cerrar el archivo, es importante siempre cerrar el archivo
 
  fclose($archivo);
- echo "Los datos se guardaron correctamente";
+ echo "Los datos se guardaron en el archivo Txt correctamente";
 
  //Cuando hagamos todo esto veremos que se nos creo un archivo txt con el nombre "calificacion" y veremos que tiene los datos que mando desde nuestro archvio html "Funciones_Archivos.html"
 
