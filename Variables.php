@@ -16,12 +16,18 @@ Para imprimir esa variable en la pantalla usamos la funcion o metodo print() y p
  $edad=24;
 print($edad);
 
+echo "<br>";
+
 
 //Podemos modificar las variables
 $edad=37;
 print($edad);
 
 
+echo "<br>";
+
+$nombre="Aaron Ortiz";
+echo "Mi nombre es: ",$nombre;
 
 
 

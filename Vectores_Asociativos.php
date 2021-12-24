@@ -27,7 +27,7 @@ $datos_alumno[]="Programacion";
 print($datos_alumno[0]);
 
 
-// Los vectores Asociativos: Estos vectores nos ayudan cuando no sabes el indice del elemento al que queremos acceder o imprimir en pantalla, este vector asociativo nos ayuda a crear un vector comun pero con la diferencia de que no vamos a utilizar los indices para cceder los datos en cambio accederemos por medio de una clave tipo string
+// Los vectores Asociativos: Estos vectores nos ayudan cuando no sabes el indice del elemento al que queremos acceder o imprimir en pantalla, este vector asociativo nos ayuda a crear un vector comun pero con la diferencia de que no vamos a utilizar los indices para acceder los datos en cambio accederemos por medio de una clave tipo string
 
 echo "<br>";
 $meses['primero']="Enero";  //aqui en los corchetes en vez de poner el numero de indice ponemos una palabra clave en una commila
